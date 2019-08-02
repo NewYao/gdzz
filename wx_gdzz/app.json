@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/request/request"
+  ],
+  "style": "v2",
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "微信标题",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "pageOrientation": "auto",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "position": "bottom",
+    "selectedColor": "#1296db",
+    "color": "#666666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/app.png",
+        "selectedIconPath": "images/app_active.png",
+        "borderStyle": "white"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/panel.png",
+        "selectedIconPath": "images/panel_active.png"
+      },
+      {
+        "pagePath": "pages/request/request",
+        "text": "请求范例",
+        "iconPath": "images/sociality.png",
+        "selectedIconPath": "images/sociality_active.png"
+      },
+      {
+        "pagePath": "pages/request/request",
+        "text": "设置",
+        "iconPath": "images/set.png",
+        "selectedIconPath": "images/set_active.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "functionalPages": {
+    "independent": true
+  },
+  "resizable": true
+}

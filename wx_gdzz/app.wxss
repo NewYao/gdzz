@@ -1,0 +1,20 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.my-class {
+  width: 40px;
+}
+
+@media (min-width: 480px) {
+  /* 仅在 480px 或更宽的屏幕上生效的样式规则 */
+  .my-class {
+    width: 200px;
+  }
+}
