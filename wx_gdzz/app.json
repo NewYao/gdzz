@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/request/request"
+    "pages/request/request",
+    "pages/test/test"
   ],
   "style": "v2",
   "window": {
@@ -41,7 +42,7 @@
         "selectedIconPath": "images/sociality_active.png"
       },
       {
-        "pagePath": "pages/request/request",
+        "pagePath": "pages/test/test",
         "text": "设置",
         "iconPath": "images/set.png",
         "selectedIconPath": "images/set_active.png"
@@ -59,5 +60,6 @@
   "functionalPages": {
     "independent": true
   },
-  "resizable": true
+  "resizable": true,
+  "sitemapLocation": "sitemap.json"
 }

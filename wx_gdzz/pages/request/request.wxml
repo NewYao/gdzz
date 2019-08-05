@@ -1,3 +1,14 @@
-<!--pages/request/request.wxml-->
-<text>pages/request/request.wxml</text>
-{{tar}}
+<view class="page" style="background:  url('../../static/images/wood_texture.png') repeat-y top">
+   <movable-area style="height: 950rpx;width: 100%;">
+    <!--黄色只能横向拖动的内容-->
+    <movable-view direction="vertical" x="{{x}}" y="{{y}}" style="height: 500rpx; width: 80%; z-index:999;background: yellow;">
+    </movable-view>
+  </movable-area>
+    <image style="width: 65px; height: 65px;position: absolute;left:140rpx;z-index:1;bottom:350rpx" mode="aspectFit" src="{{src1}}"></image>
+    <image style="width: 65px; height: 65px;position: absolute;left:230rpx;z-index:3;bottom:280rpx" mode="aspectFit" src="{{src2}}"></image>
+    <image style="width: 65px; height: 65px;position: absolute;left:80rpx;z-index:2;bottom:240rpx" mode="aspectFit" src="{{src3}}"></image>
+    <image style="width: 65px; height: 65px;position: absolute;left:390rpx;z-index:3;bottom:220rpx" mode="aspectFit" src="{{src4}}"></image>
+    <image style="width: 65px; height: 65px;position: absolute;left:450rpx;z-index:2;bottom:300rpx" mode="aspectFit" src="{{src5}}"></image>
+    <image style="width: 65px; height: 65px;position: absolute;left:510rpx;z-index:3;bottom:170rpx" mode="aspectFit" src="{{src6}}"></image>
+  <button type="default" size="default" bindtap="tz">投掷</button>
+</view>
